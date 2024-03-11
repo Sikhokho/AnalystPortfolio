@@ -1,0 +1,52 @@
+
+Project Brief: Pizzeria Database Design
+
+Client: Ben (Opening a new Pizzeria - Takeout and Delivery)
+
+Objective:
+Design and build a tailor-made bespoke relational database for Ben's Pizzeria to efficiently capture, store, and manage crucial business information. The primary focus is on customer orders, stock levels, and staff management.
+
+Scope:
+
+Customer Orders:
+
+Fields: Order ID, Item Name, Item Price, Quantity, Customer Name, Delivery Address.
+Initial table design with a potential need for normalization.
+Utilize Quick Database Diagrams (Quick DBD) for visualizing and refining the data model.
+Normalize data to reduce redundancy and enhance flexibility.
+Tables and Relationships:
+
+Create separate tables for Customers and Delivery Addresses.
+Establish relationships between Orders, Customers, and Delivery Addresses.
+Product or Item Table:
+
+Create a table to hold information about menu items.
+Include fields like Item ID, SKU, Item Name, Item Category, Item Size, and Item Price.
+Establish relationships between Orders and Items.
+Stock Control:
+
+Track ingredients for each pizza, their quantities based on pizza size, and existing stock levels.
+Introduce two tables: Ingredients and Recipes.
+Establish relationships between Items, Ingredients, and Recipes.
+Create an Inventory table for stock levels.
+Staff Data:
+
+Record staff information, including Staff ID, First Name, Last Name, Position, and Hourly Rate.
+Implement a Shift table for tracking working hours.
+Create a Rotor table to determine staff schedules.
+Establish relationships between Staff, Shifts, and Rotors.
+Tools:
+
+Utilize Quick Database Diagrams (Quick DBD) for initial visualization and design.
+Export the SQL code for database creation.
+Implementation:
+
+Create a MySQL database named "PizzaDB."
+Execute SQL scripts to generate tables within the database.
+Import data from provided CSV files into respective tables.
+Next Steps:
+
+Develop SQL queries for creating views needed to build dashboards.
+Collaborate with the team responsible for the front-end ordering system.
+Note:
+Ensure close adherence to database normalization principles to enhance efficiency and flexibility. Consider potential future modifications and expansions.
