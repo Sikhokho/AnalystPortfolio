@@ -13,8 +13,8 @@ Create a PowerBI dashboard for visualization and presentation of findings.
 
 Data Cleaning: Utilize Power Query in Excel to clean and preprocess the provided data.
 Identify and handle null values.
-Standardize store type labels.
-Normalize sales data based on days the store is open.
+Standardize store-type labels.
+Normalize sales data based on the days the store is open.
 
 Data Analysis:
 Analyze sales performance of various offers across different store types and locations.
@@ -29,9 +29,9 @@ Recommendations:
 Based on the analysis, recommendations will be provided regarding the optimal product distribution for the new stores. Factors such as offer performance, store type, and location will be considered to ensure the recommendations align with the company's objectives and target market.
 
 Store Types:
-EDO: Mid-sized store with regular front fuel and an extended diesel offering in the back. These stores are a crosss between a 5.5K and a travel center.
-Travel Center: Larger Store with front regular fuel stations and back truck fuel stations. They are usually along travel routes. This means they see a lot of traffic from travlleres but may not be in populated areas.
-5.5K: A regular sized store with only front regulart fuel stations. These are normally located in citites (populated areas) but can be located anywhere.
+EDO: Mid-sized store with regular front fuel and an extended diesel offering in the back. These stores are a cross between a 5.5K and a travel center.
+Travel Center: Larger Store with front regular fuel stations and back truck fuel stations. They are usually along travel routes. This means they see a lot of traffic from travelers but may not be in populated areas.
+5.5K: A regular-sized store with only front regular fuel stations. These are normally located in cities (populated areas) but can be located anywhere.
 
 Conclusion:
 Through thorough data analysis and visualization, our team aims to provide actionable insights and recommendations to optimize product distribution for the new stores, ultimately contributing to the company's success in meeting customer demands and driving sales growth.
